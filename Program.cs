@@ -56,7 +56,7 @@ namespace ChangeFeedMigrationSample
         /// <param name="args">Command line parameters (not used)</param>
         public static void Main(string[] args)
         {
-            Console.WriteLine("Change Feed Migration Sample");
+            Console.WriteLine("Change Feed Processor client Started at: " + DateTime.Now.ToShortTimeString());
             Program newApp = new Program();
             newApp.MainAsync().Wait();             
         }
